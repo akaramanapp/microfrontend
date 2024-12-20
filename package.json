@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "start": "concurrently \"cd footer && yarn webpack server\" \"cd header && yarn webpack server\" \"cd product && yarn webpack server\" \"cd shell && yarn webpack server\" \"cd user && yarn webpack server\""
+    },
+    "dependencies": {
+        "babel-loader": "^9.2.1",
+        "concurrently": "^9.1.0",
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.3",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.97.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.2.0",
+        "webpack-server": "^0.1.2"
+    }
+}

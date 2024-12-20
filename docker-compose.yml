@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  footer-app:
+    build:
+      context: ./footer
+    ports:
+      - "3005:80"
+    container_name: footer-app
+  header-app:
+    build:
+      context: ./header
+    ports:
+      - "3004:80"
+    container_name: header-app
+  product-app:
+    build:
+      context: ./product
+    ports:
+      - "3002:80"
+    deploy:
+      replicas: 3

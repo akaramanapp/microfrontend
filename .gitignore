@@ -1,0 +1,31 @@
+# Genel olarak geçerli olan kurallar
+
+# Node.js bağımlılıkları
+node_modules/
+
+# Python cache dosyaları
+__pycache__/
+
+# IDE özel dosyaları
+.vscode/
+.idea/
+
+# Mac ve Windows geçici dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Derleme klasörleri
+/dist
+/build
+.out
+
+*/dist
+*/build
+# .env dosyaları
+.env
+
+# Test sonucu dosyaları
+coverage/
